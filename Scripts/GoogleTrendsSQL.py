@@ -36,7 +36,7 @@ query = client.query(query, job_config=query_config)
 
 queryData = query.to_dataframe()
 
-queryData.to_csv("./topterms.csv")
+queryData.to_csv("../Datasets/topterms.csv")
 
 print(queryData.head())
 
